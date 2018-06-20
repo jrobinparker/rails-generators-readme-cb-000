@@ -1,4 +1,4 @@
-class AddBioToAutors < ActiveRecord::Migration
+class AddBioToAuthors < ActiveRecord::Migration
   def change
     add_column :autors, :bio, :string
   end
